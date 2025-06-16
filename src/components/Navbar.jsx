@@ -54,10 +54,13 @@ export const Navbar = () => {
         </div>
 
         {/* mobile nav */}
-          <button className="md:hidden p-2 text-foreground z-50" onClick={() => setIsMenuOpen((prev) => !prev)}>
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-
+        <button
+          className="md:hidden p-2 text-foreground z-50"
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+          aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+        >
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
 
         <div
           className={cn(
@@ -74,7 +77,7 @@ export const Navbar = () => {
                 key={key}
                 href={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                onClick={setIsMenuOpen(false)}
+                onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
               </a>
