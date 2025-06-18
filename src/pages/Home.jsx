@@ -2,6 +2,7 @@ import { About } from "../components/About"
 import { Background } from "../components/Background"
 import { HeroSection } from "../components/HeroSection"
 import { Navbar } from "../components/Navbar"
+import { Skills } from "../components/Skills"
 import { Theme } from "../components/Theme"
 
 export const Home = () => {
@@ -19,6 +20,7 @@ export const Home = () => {
         <main>
             <HeroSection />
             <About />
+            <Skills />
         </main>
         
 
