@@ -1,5 +1,6 @@
 import { About } from "../components/About"
 import { Background } from "../components/Background"
+import { Contact } from "../components/Contact"
 import { HeroSection } from "../components/HeroSection"
 import { Navbar } from "../components/Navbar"
 import { Projects } from "../components/Projects"
@@ -23,6 +24,7 @@ export const Home = () => {
             <About />
             <Skills />
             <Projects />
+            <Contact />
         </main>
         
 

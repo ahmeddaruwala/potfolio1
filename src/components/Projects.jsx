@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
@@ -7,7 +7,7 @@ const projects = [
     description: "under construction e-commerce website.",
     image: "/projects-images/project1.png",
     demoURL: "https://extra-small-hand.surge.sh/",
-    githubURL: "https://github.com/ahmeddaruwala",
+    githubURL: "https://github.com/ahmeddaruwala/react-e-commerce",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const projects = [
     description: "",
     image: "",
     demoURL: "",
-    githubURL: "https://github.com/ahmeddaruwala",
+    githubURL: "",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const projects = [
     description: "",
     image: "",
     demoURL: "",
-    githubURL: "https://github.com/ahmeddaruwala",
+    githubURL: "",
   },
 ];
 
@@ -80,6 +80,11 @@ export const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-12">
+          <a href="https://github.com/ahmeddaruwala" target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2">
+            Check My Github <ArrowRight size={16}/>
+          </a>
         </div>
       </div>
     </section>
