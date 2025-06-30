@@ -21,7 +21,10 @@ export const About = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
+              <a
+                href="https://api.whatsapp.com/send/?phone=923242745032&text&type=phone_number&app_absent=0"
+                className="cosmic-button"
+              >
                 Get in Touch
               </a>
             </div>
@@ -34,9 +37,7 @@ export const About = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">
-                    Web Developer
-                  </h4>
+                  <h4 className="font-semibold text-lg">Web Developer</h4>
                   <p className="text-muted-foreground">
                     Creating responsive, interactive, user-friendly websites and
                     web applications with modern frameworks.
