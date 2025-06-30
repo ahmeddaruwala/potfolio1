@@ -50,7 +50,7 @@ export const Contact = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    ahmeddaruwala@gmail.com
                   </a>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export const Contact = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    ABC, Earth.
+                    Karachi, Pakistan.
                   </a>
                 </div>
               </div>
