@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
@@ -64,7 +65,7 @@ export const Contact = () => {
                     href="tel:+9212345678"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +9212345678
+                    +923242745032
                   </a>
                 </div>
               </div>
@@ -95,10 +96,7 @@ export const Contact = () => {
                   href="https://api.whatsapp.com/send/?phone=923242745032&text&type=phone_number&app_absent=0"
                   target="_blank"
                 >
-                  <img
-                    className="h-7 w-7 ml-3 mr-3"
-                    src="../../public/projects-images/whatsapp-brands.svg"
-                  />
+                  <FaWhatsapp size={24}/>
                 </a>
 
                 <a href="https://github.com/ahmeddaruwala" target="_blank">
