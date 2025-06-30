@@ -1,12 +1,4 @@
-import {
-  Facebook,
-  Linkedin,
-  Mail,
-  Mails,
-  MapPin,
-  Phone,
-  Send,
-} from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
@@ -27,7 +19,6 @@ export const Contact = () => {
       });
       setIsSubmitting(false);
     }, 1500);
-    
   };
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -91,7 +82,7 @@ export const Contact = () => {
               </div>
             </div>
             <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
+              <h4 className="font-bold text-3xl mb-6 mt-6"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
                   href="https://www.linkedin.com/in/muhammad-ahmed-03ab8931a/"
@@ -100,15 +91,18 @@ export const Contact = () => {
                   <Linkedin />
                 </a>
 
-                <a href="https://www.facebook.com/" target="_blank">
-                  <Facebook />
-                </a>
-
                 <a
-                  href="https://web.whatsapp.com/?post_logout=1"
+                  href="https://api.whatsapp.com/send/?phone=923242745032&text&type=phone_number&app_absent=0"
                   target="_blank"
                 >
-                  <Mails />
+                  <img
+                    className="h-7 w-7 ml-3 mr-3"
+                    src="../../public/whatsapp.png"
+                  />
+                </a>
+
+                <a href="https://github.com/ahmeddaruwala" target="_blank">
+                  <Github />
                 </a>
               </div>
             </div>
