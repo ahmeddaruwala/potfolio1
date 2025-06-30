@@ -97,7 +97,7 @@ export const Contact = () => {
                 >
                   <img
                     className="h-7 w-7 ml-3 mr-3"
-                    src="../../public/whatsapp-brands.svg"
+                    src="../../public/projects-images/whatsapp-brands.svg"
                   />
                 </a>
 
